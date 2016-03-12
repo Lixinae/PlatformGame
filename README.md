@@ -22,3 +22,11 @@ That's it , they may be others controls in the input map when you start the game
 
 
 In further versions , i'll be removing the OpenClassRoom assets to only use my own.
+
+
+## Versions ##
+
+* v0.21 : Better lightning
+* v0.2 : Added some interactive objects and trigger effects
+* v0.1 : Basic scene with no interactive objects
+   
