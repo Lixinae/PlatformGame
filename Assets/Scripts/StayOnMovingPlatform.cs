@@ -8,7 +8,6 @@ public class StayOnMovingPlatform : MonoBehaviour
     {
         if (col.name.Equals("FPSController"))
         {
-            //Debug.Log("Attach");
             col.transform.parent = gameObject.transform;
         }        
     }
@@ -17,7 +16,6 @@ public class StayOnMovingPlatform : MonoBehaviour
     {
         
         if (col.name.Equals("FPSController")) { 
-            //Debug.Log("exit Trigger");
             col.transform.parent = null;
         }
     }

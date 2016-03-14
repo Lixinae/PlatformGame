@@ -104,12 +104,14 @@
     <Compile Include="Assets\Scripts\Character\Dead_restart.cs" />
     <Compile Include="Assets\Scripts\CheckMeshRenderer.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Scripts\Falling_Platform.cs" />
     <Compile Include="Assets\Scripts\GUI\Timer.cs" />
     <Compile Include="Assets\Scripts\PatrolPlatforme.cs" />
     <Compile Include="Assets\Scripts\Patrol_platform_backup.cs" />
     <Compile Include="Assets\Scripts\SetCheckPoint.cs" />
     <Compile Include="Assets\Scripts\SetColor.cs" />
     <Compile Include="Assets\Scripts\StayOnMovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\TeleportTargetTo.cs" />
     <Compile Include="Assets\Scripts\UnCheckIsKinematicOnTriggerEnter.cs" />
   </ItemGroup>
   <ItemGroup>

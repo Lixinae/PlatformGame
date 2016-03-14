@@ -9,6 +9,5 @@ public class SetColor : MonoBehaviour {
 
     void Start () {
         target = this.gameObject;
-        target.GetComponent<MeshRenderer>().GetComponent<Material>().color = color;
     }
 }

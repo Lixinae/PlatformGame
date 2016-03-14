@@ -9,8 +9,6 @@ public class PatrolPlatforme : MonoBehaviour {
     [SerializeField]private Transform movingPlatform;
     [SerializeField]private Transform[] positions;
 
-    //[SerializeField]private Transform positions1;
-    //[SerializeField]private Transform positions2;
     private Vector3 newPosition;
 
     [SerializeField]private float speed;
