@@ -100,12 +100,20 @@
     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\MovementScripts\MoveScript.cs" />
     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\ViewScripts\PitchScript.cs" />
     <Compile Include="Assets\OpenClassrooms-ToolsS3Ch6\Scripts\PhysicallyBasedFirstPersonController\ViewScripts\YawScript.cs" />
+    <Compile Include="Assets\Scripts\ApplyForceOnTarget.cs" />
     <Compile Include="Assets\Scripts\ApplyForceOnTriggerEnter.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterControls_not_used.cs" />
+    <Compile Include="Assets\Scripts\Character\Character_data.cs" />
     <Compile Include="Assets\Scripts\Character\Dead_restart.cs" />
+    <Compile Include="Assets\Scripts\Character\DisableMouse.cs" />
+    <Compile Include="Assets\Scripts\Character\JumpScript_new.cs" />
+    <Compile Include="Assets\Scripts\Character\MoveScript_new.cs" />
+    <Compile Include="Assets\Scripts\Character\PitchScript_new.cs" />
+    <Compile Include="Assets\Scripts\Character\Timer.cs" />
+    <Compile Include="Assets\Scripts\Character\YawScript_new.cs" />
     <Compile Include="Assets\Scripts\CheckMeshRenderer.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\Falling_Platform.cs" />
-    <Compile Include="Assets\Scripts\GUI\Timer.cs" />
     <Compile Include="Assets\Scripts\PatrolPlatforme.cs" />
     <Compile Include="Assets\Scripts\Patrol_platform_backup.cs" />
     <Compile Include="Assets\Scripts\SetCheckPoint.cs" />
@@ -115,6 +123,9 @@
     <Compile Include="Assets\Scripts\UnCheckIsKinematicOnTriggerEnter.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />

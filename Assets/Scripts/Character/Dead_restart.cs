@@ -10,10 +10,9 @@ public class Dead_restart : MonoBehaviour {
 
     public Vector3 currentCheckPoint;
 
-    public int r_countDeath { get { return countDeath; } }
     // Use this for initialization
     void Start () {
-        player = GameObject.Find("FPSController");
+        player = gameObject;
         currentCheckPoint = player.transform.localPosition;
 
         //playerStartRotation = player.transform.localRotation;
@@ -23,20 +22,20 @@ public class Dead_restart : MonoBehaviour {
 	void Update () {
         // get the current position of the player
         playerCurrentPos = player.transform.localPosition;
-        // if the player goes below -5 == he dies -> resest the position & rotation to the beginning
+        // if the player goes below -7 == he dies -> resest the position & rotation to the beginning
         if (playerCurrentPos.y <= -7)
         {
-            ResetPlayer();
+            //ResetPlayer();
             countDeath++;
         }
 
 	}
-
+    /*
     void ResetPlayer()
     {
         player.transform.localPosition = currentCheckPoint;
     }
-
+    */
     void OnGUI()
     {
         DisplayNumberOfDeaths();
