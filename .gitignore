@@ -50,3 +50,14 @@ Temporary Items
 #Folder temp
 Temp/*
 Temp/*/*
+
+#Meta files
+*.meta
+
+Library/metadata/*
+Library/metadata/*/*
+Library/metadata/*/*/*
+
+#Log files
+*.log
+*.userprefs
