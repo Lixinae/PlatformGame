@@ -26,9 +26,10 @@ In further versions , i'll be removing the OpenClassRoom assets to only use my o
 
 ## Versions ##
 
-* v0.3 :  * Update of the code
-          * Added some particles effects
-          * Removed the OpenClassRoom assets & the standard assests
+* v0.3 :  
+    - Update of the code
+    - Added some particles effects
+    - Removed the OpenClassRoom assets & the standard assests
 * v0.21 : Better lightning
 * v0.2 : Added some interactive objects and trigger effects
 * v0.1 : Basic scene with no interactive objects
