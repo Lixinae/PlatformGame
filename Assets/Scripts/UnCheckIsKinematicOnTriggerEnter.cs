@@ -1,23 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class UnCheckIsKinematicOnTriggerEnter : MonoBehaviour {
+public class UnCheckIsKinematicOnTriggerEnter : MonoBehaviour
+{
 
 	[SerializeField]
-	private Rigidbody _targetRigidbody;
+	private Rigidbody targetRigidbody;
 
-	public void OnDrawGizmos()
+	public void OnDrawGizmos ()
 	{
-		if (_targetRigidbody != null)
-			Debug.DrawLine(this.transform.position, _targetRigidbody.transform.position, Color.yellow);
+		if (targetRigidbody != null)
+			Debug.DrawLine (this.transform.position, targetRigidbody.transform.position, Color.yellow);
+		
 	}
 
-	public void OnTriggerEnter(Collider col)
+	public void OnTriggerEnter (Collider col)
 	{
-		if (_targetRigidbody != null)
-		{
-			_targetRigidbody.isKinematic = false;
-			_targetRigidbody.WakeUp();
+		if (targetRigidbody) {
+			targetRigidbody.isKinematic = false;
+			targetRigidbody.WakeUp ();
 		}
 	}
 }
