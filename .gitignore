@@ -57,3 +57,7 @@ Temp/*/*
 #Log files
 *.log
 *.userprefs
+
+#Unity files
+*.csproj
+*.sln
